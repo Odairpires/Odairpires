@@ -1,0 +1,22 @@
+name: jbplog
+description: Novo app JBP LOG com suporte ao Android V2 Embedding
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.0.0
+  flutter_rating_bar: ^4.0.0
+  url_launcher: ^6.1.10
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
